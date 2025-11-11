@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartik Mehta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#research" class="nav-link">Research Overview</a></li>
+                <li><a href="#publications" class="nav-link">Selected Publications</a></li>
+                <li><a href="#services" class="nav-link">Service & Leadership</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-content">
+                        <h1 class="name-title"><span class="first-name">Kartik</span> Mehta</h1>
+                        
+                        <div class="bio">
+                            <p>Kartik Mehta is a Senior Applied Scientist at Amazon AGI, specializing in Natural Language Processing (NLP), Large Language Models (LLMs), and Generative AI. He leads post-training and evaluation efforts for frontier models within the Amazon Nova family — featured in Fortune, TechCrunch, and AI Business. He holds B.Tech. and M.Tech. degrees from IIT Delhi, where he focused on machine learning and language technologies.</p>
+                            
+                            <p>With over a decade of experience in AI research and applied machine learning, Kartik has authored 10+ peer-reviewed papers in premier venues such as EMNLP and NAACL, and holds a U.S. patent on entity-extraction architectures deployed at Amazon scale. He regularly serves as a reviewer for top AI conferences and a judge for the Alexa Prize (SocialBot & TaskBot Challenges) and the Amazon Nova AI Challenge on agentic AI for software engineering.</p>
+                            
+                            <p>His recent research advances LLM reasoning and data-centric alignment, including DeCRIM (EMNLP 2024), FLAMES (EMNLP 2025), and DiCoRe (EMNLP 2025). Earlier, he led research and development in e-commerce attribute extraction (NAACL 2021, 2022; ACL Workshop 2021) and product question answering (EMNLP 2019; WWW Workshop 2019), designing and deploying systems used globally by Amazon customers.</p>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/kartik-mehta-b1909725/" class="social-icon" aria-label="LinkedIn">in</a>
+                            <a href="mailto:kartikmehta.iitd@gmail.com" class="social-icon" aria-label="Email">✉</a>
+                            <a href="https://scholar.google.com/citations?user=gInh5hIAAAAJ&hl=en" class="social-icon" aria-label="Google Scholar">🎓</a>
+                        </div>
+                    </div>
+                    
+                    <div class="profile-image">
+                        <img src="images/profile.jpg" alt="Kartik Mehta">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="research" class="research-section">
+            <div class="container">
+                <h2 class="section-title">Research Overview</h2>
+                
+                <div class="research-pillars">
+                    <div class="research-pillar">
+                        <h3 class="pillar-title">LLM Post-Training & Data Synthesis</h3>
+                        <p class="pillar-content">
+                            <a href="https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card" class="text-link" target="_blank">Amazon Nova</a> (Amazon Technical Reports), 
+                            <a href="https://aclanthology.org/2025.findings-emnlp.1346/" class="text-link" target="_blank">FLAMES</a> (EMNLP 2025), 
+                            <a href="https://aclanthology.org/2025.emnlp-main.1038/" class="text-link" target="_blank">DiCoRe</a> (EMNLP 2025), 
+                            <a href="https://aclanthology.org/2024.findings-emnlp.458/" class="text-link" target="_blank">DeCRIM</a> (EMNLP 2024)
+                        </p>
+                    </div>
+
+                    <div class="research-pillar">
+                        <h3 class="pillar-title">NER & Attribute Extraction</h3>
+                        <p class="pillar-content">
+                            <a href="https://aclanthology.org/2022.naacl-industry.26/" class="text-link" target="_blank">NER_MQMRC</a> (NAACL 2022, US patent granted), 
+                            <a href="https://aclanthology.org/2021.naacl-industry.34/" class="text-link" target="_blank">LATEX-Numeric</a> (NAACL 2021), 
+                            <a href="https://aclanthology.org/2021.ecnlp-1.12/" class="text-link" target="_blank">SANTA</a> (ACL Workshop 2021)
+                        </p>
+                    </div>
+
+                    <div class="research-pillar">
+                        <h3 class="pillar-title">E-Commerce Product QA</h3>
+                        <p class="pillar-content">
+                            <a href="https://aclanthology.org/D19-1604/" class="text-link" target="_blank">Hard Negative</a> (EMNLP 2019), 
+                            <a href="https://dl.acm.org/doi/10.1145/3308560.3316597" class="text-link" target="_blank">ProductQnA</a> (WWW Workshop 2019)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications" class="publications-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Selected Publications</h2>
+                    <button class="show-more-btn">Show More</button>
+                </div>
+
+                <div class="category-tabs">
+                    <button class="tab-btn active">Modeling</button>
+                </div>
+
+                <div class="publications-list">
+                    <article class="publication-item">
+                        <div class="publication-image">
+                            <img src="images/flames.png" alt="FLAMES paper figure">
+                        </div>
+                        <div class="publication-content">
+                            <h3 class="publication-title">FLAMES: Improving LLM Math Reasoning via a Fine-Grained Analysis of the Data Synthesis Pipeline</h3>
+                            <p class="publication-authors">
+                                Parker Seegmiller, 
+                                <strong>Kartik Mehta</strong>, 
+                                Soumya Saha, 
+                                Chenyang Tao, 
+                                Shereen Oraby, 
+                                Arpit Gupta, 
+                                Tagyoung Chung, 
+                                Mohit Bansal, 
+                                Nanyun Peng
+                            </p>
+                            <p class="publication-venue">EMNLP, 2025</p>
+                            <p class="publication-summary">How do synthetic data choices truly shape LLM reasoning? Our EMNLP 2025 paper, FLAMES, introduces the first unified framework to systematically compare and optimize synthetic data pipelines—revealing what really drives performance in math reasoning models.</p>
+                            <div class="publication-links">
+                                <a href="https://aclanthology.org/2025.findings-emnlp.1346/" class="pub-link" target="_blank">PAPER</a>
+                                <a href="https://drive.google.com/file/d/1gHwgHRXivwCHcf8jKW7G8STJbCgvT88p/view?usp=sharing" class="pub-link" target="_blank">POSTER</a>
+                                <a href="https://www.youtube.com/watch?v=1KUdet83Nz8" class="pub-link" target="_blank">TALK</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="publication-item">
+                        <div class="publication-image">
+                            <img src="images/dicore.png" alt="DiCoRe paper figure">
+                        </div>
+                        <div class="publication-content">
+                            <h3 class="publication-title">DiCoRe: Enhancing Zero-shot Event Detection via Divergent-Convergent LLM Reasoning</h3>
+                            <p class="publication-authors">
+                                Tanmay Parekh, 
+                                <strong>Kartik Mehta</strong>, 
+                                Ninareh Mehrabi, 
+                                Kai-Wei Chang, 
+                                Nanyun Peng
+                            </p>
+                            <p class="publication-venue">EMNLP, 2025</p>
+                            <p class="publication-summary">How can LLMs reason under strict structural constraints? Our EMNLP 2025 paper, DiCoRe, introduces a Divergent–Convergent reasoning framework that enables zero-shot event detection with higher accuracy, stronger constraint adherence, and 15–55× lower compute cost than standard CoT methods. <em>(Work supported as part of Amazon Research Fellowship)</em></p>
+                            <div class="publication-links">
+                                <a href="https://aclanthology.org/2025.emnlp-main.1038/" class="pub-link" target="_blank">PAPER</a>
+                                <a href="https://drive.google.com/file/d/179E3Wi_UTScmrC7zloltOij1TV4h2j8m/view?usp=sharing" class="pub-link" target="_blank">POSTER</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="publication-item">
+                        <div class="publication-image">
+                            <img src="images/decrim.png" alt="DeCRIM paper figure">
+                        </div>
+                        <div class="publication-content">
+                            <h3 class="publication-title">LLM Self-Correction with DeCRIM: Decompose, Critique, and Refine for Enhanced Following of Instructions with Multiple Constraints</h3>
+                            <p class="publication-authors">
+                                Thomas Palmeira Ferraz, 
+                                <strong>Kartik Mehta</strong>, 
+                                Yu-Hsiang Lin, 
+                                Haw-Shiuan Chang, 
+                                Shereen Oraby, 
+                                Sijia Liu, 
+                                Vivek Subramanian, 
+                                Tagyoung Chung, 
+                                Mohit Bansal, 
+                                Nanyun Peng
+                            </p>
+                            <p class="publication-venue">EMNLP, 2024</p>
+                            <p class="publication-summary">Do LLMs truly follow complex human instructions? Our EMNLP 2024 paper, DECRIM, introduces a self-correction framework that helps models decompose, critique, and refine multi-constraint tasks—boosting open LLM performance beyond GPT-4 on real-world instructions.</p>
+                            <div class="publication-links">
+                                <a href="https://aclanthology.org/2024.findings-emnlp.458/" class="pub-link" target="_blank">PAPER</a>
+                                <a href="https://drive.google.com/file/d/1d4PJFZ3OTyH85nY8c-AqGWaH4O2Aahtw/view?usp=sharing" class="pub-link" target="_blank">POSTER</a>
+                                <a href="https://www.youtube.com/watch?v=4w1tfV4dogs" class="pub-link" target="_blank">TALK</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2 class="section-title">Service & Leadership</h2>
+                
+                <div class="service-grid">
+                    <div class="service-card">
+                        <h3 class="service-card-title">Conference Reviewing</h3>
+                        <p class="service-card-content">Reviewer for leading AI and NLP conferences — ARR (ACL 2025, EMNLP 2025), NAACL 2025, COLM 2024, ICML 2023, ACL 2023, EMNLP 2022.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <h3 class="service-card-title">Judge for Alexa Prize SocialBot Challenge 5</h3>
+                        <p class="service-card-content">Judged university teams competing for $1M in prizes advancing conversational AI.</p>
+                        <a href="https://www.amazon.science/alexa-prize/socialbot-grand-challenge" class="service-link" target="_blank">Learn more →</a>
+                    </div>
+
+                    <div class="service-card">
+                        <h3 class="service-card-title">Judge for Alexa Prize TaskBot Challenge 2</h3>
+                        <p class="service-card-content">Reviewed global applications for a $500K competition on task-oriented chatbots.</p>
+                        <a href="https://www.amazon.science/alexa-prize/taskbot-challenge" class="service-link" target="_blank">Learn more →</a>
+                    </div>
+
+                    <div class="service-card">
+                        <h3 class="service-card-title">Judge for Amazon Nova AI Challenge 2025</h3>
+                        <p class="service-card-content">Judged finalists on LLM safety and misuse prevention, helping allocate $700K in research awards.</p>
+                        <a href="https://www.amazon.science/nova-ai-challenge" class="service-link" target="_blank">Learn more →</a>
+                    </div>
+
+                    <div class="service-card">
+                        <h3 class="service-card-title">Mentor for Amazon Research Fellowship</h3>
+                        <p class="service-card-content">Mentored a PhD student at UCLA in GenAI/LLM Information Extraction, resulting in an EMNLP 2025 paper.</p>
+                        <a href="https://www.amazon.science/research-awards" class="service-link" target="_blank">Learn more →</a>
+                    </div>
+
+                    <div class="service-card">
+                        <h3 class="service-card-title">IEEE Senior Member</h3>
+                        <p class="service-card-content">Recognized among the top 10% of IEEE's 400,000+ members worldwide for professional excellence and impact.</p>
+                        <a href="https://www.ieee.org/about/volunteers/membership-development/senior-member" class="service-link" target="_blank">Learn more →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Kartik Mehta. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
