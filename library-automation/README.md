@@ -13,6 +13,17 @@ Automated library book checkout system using **Manus AI** for the Sunnyvale Publ
 
 ## 🚀 Quick Start
 
+### Try the Demo First!
+
+Before setting up credentials, see the automation in action:
+
+```bash
+cd library-automation
+node demo.js
+```
+
+This will run a simulation showing exactly how the automation works.
+
 ### Prerequisites
 
 - Node.js 16+ installed
@@ -97,6 +108,18 @@ await checkout.run();
 
 ## 🎮 Running Different Examples
 
+### Demo Mode (No credentials required)
+
+```bash
+npm run demo
+# or
+node demo.js
+```
+
+This simulates the entire process and shows you what the automation does.
+
+### Real Automation Examples
+
 The `example.js` file contains 4 different usage examples:
 
 ```bash
@@ -119,6 +142,7 @@ EXAMPLE=4 node example.js
 library-automation/
 ├── checkout-books.js    # Main automation script
 ├── example.js           # Usage examples
+├── demo.js              # Demo mode (no credentials needed)
 ├── package.json         # Dependencies and scripts
 ├── .env.example         # Environment variables template
 └── README.md           # This file

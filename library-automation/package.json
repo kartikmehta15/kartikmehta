@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "example": "node example.js",
-    "checkout": "node checkout-books.js"
+    "checkout": "node checkout-books.js",
+    "demo": "node demo.js"
   },
   "keywords": [
     "library",
