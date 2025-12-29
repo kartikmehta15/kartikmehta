@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables (contains credentials)
+.env
+
+# Screenshots from automation
+*.png
+checkout-result-*.png
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

@@ -1,0 +1,24 @@
+{
+  "name": "library-automation",
+  "version": "1.0.0",
+  "description": "Automated library book checkout using Manus AI",
+  "main": "checkout-books.js",
+  "type": "module",
+  "scripts": {
+    "example": "node example.js",
+    "checkout": "node checkout-books.js"
+  },
+  "keywords": [
+    "library",
+    "automation",
+    "manus-ai",
+    "book-checkout"
+  ],
+  "author": "Kartik Mehta",
+  "license": "MIT",
+  "dependencies": {
+    "@manus/sdk": "^1.0.0",
+    "playwright": "^1.40.0",
+    "dotenv": "^16.3.1"
+  }
+}

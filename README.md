@@ -5,7 +5,7 @@ This repository hosts my professional research website — [**kartikmehta.me**](
 The website offers a fully responsive interface with smooth scrolling navigation, subtle animations powered by the Intersection Observer API, clean typography, and SEO-friendly metadata. It’s secured with HTTPS (Let’s Encrypt) and configured with `robots.txt` and `sitemap.xml` to enable search indexing and discoverability. The design emphasizes readability, performance, and professional presentation—ideal for research portfolios and AI professionals.
 
 ## 🏗️ Project Structure
-| File | Description |
+| File/Directory | Description |
 |------|--------------|
 | `index.html` | Main HTML structure containing About, Research, and Service sections |
 | `styles.css` | Complete styling, color palette, and responsive layout |
@@ -13,6 +13,7 @@ The website offers a fully responsive interface with smooth scrolling navigation
 | `robots.txt` | Enables search engine crawling |
 | `sitemap.xml` | Lists all indexed pages for SEO |
 | `_redirects` | (Optional) Forces HTTPS and canonical redirects |
+| `library-automation/` | 📚 **Library Book Checkout Automation** using Manus AI |
 
 ## ⚙️ Customization
 You can easily adapt this template for your own portfolio:
@@ -28,3 +29,10 @@ To run locally, simply open the HTML file:
 
 ```bash
 open index.html
+```
+
+## 📚 Library Automation Tool
+This repository also includes an **automated library book checkout system** using Manus AI. Navigate to the `library-automation/` directory to:
+- Automate checking out books from Sunnyvale Public Library
+- Use AI-powered web automation for library tasks
+- See [library-automation/README.md](library-automation/README.md) for full documentation and examples
